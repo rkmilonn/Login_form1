@@ -1,0 +1,88 @@
+body{
+	background-image: url(../img/bg1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	background-position: center;
+}
+/*Login form section css start*/
+
+.login_header1{
+	padding: 20px 0 70px;
+    font-size: 50px;
+    text-align: center;
+    color: #e8f702;
+    font-family: sans-serif;
+    margin: 20px 0 20px;
+}
+.login_form{
+	width: 30%;
+    height: 550px;
+    background: rgba(12, 12, 12, 0.67);
+    margin: 0 auto;
+    font-family: sans-serif;
+    position: relative;
+
+}
+
+.login_image{
+	width: 22%;
+    position: absolute;
+    top: -10%;
+    left: 37%;
+}
+
+
+.login_header2{
+	padding: 100px 0 20px;
+    color: tomato;
+    text-align: center;
+    font-size: 30px;
+}
+form{
+	padding-left: 40px;
+}
+.login_form label{
+	font-size: 22px;
+    color: #fff;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.username, .password2{
+	font-size: 16px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    color: #fff;
+
+}
+.submit{
+	 width: 90%;
+	 border:none;
+	 outline: none;
+	 height: 40px;
+	 background:tomato;
+	 font-size: 20px;
+	 text-align: center;
+	 font-weight: bold;
+	 color: #fff;
+	 transition: 0.6s ease;
+	 border-radius: 20px;
+}
+.submit:hover{
+	background-color: #fff;
+	cursor: pointer;
+	color: tomato;
+
+}
+.login_form a{
+	text-decoration: none;
+    color: #ffffff7a;
+    font-size: 16px;
+    line-height: 30px;
+}
+/*Login form section css end*/
